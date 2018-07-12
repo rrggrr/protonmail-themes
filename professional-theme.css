@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Share');
 @charset "UTF-8";
 
@@ -304,13 +303,13 @@ body.mobileMode #pm_sidebar section.sidebar ul.menu li button{
     box-shadow:.25rem 0 0 .25rem var(--theme3)!important
 }
 #conversation-view .message.unread>div.summary{
-    background:var(--theme7)!important
+    background:var(--yellow-light)!important
 }
 #conversation-view .message.unread:not(.open) .summary .labels,#conversation-view .message.unread:not(.open) .summary .status,#conversation-view .message.unread:not(.open) .summary .time{
-    background:var(--theme7)!important
+    background:var(--yellow-light)!important
 }
 #conversation-view .message.unread>div.summary .labels .pm_labels label{
-    box-shadow:.20rem 0 0 .20rem var(--theme3)!important
+    box-shadow:.20rem 0 0 .20rem var(--yellow-light)!important
 }
 #conversation-view .message>div.summary{
     background:var(--theme7)!important
@@ -1184,18 +1183,18 @@ body .cg-notify-message.notification-info{
 }
 .conversation .row h4{
     color:var(--black)!important
+    font-weight:900;
 }
 .conversation.read{
     background:var(--theme3)!important
 }
 .conversation.read h4{
-    color:var(--black)!important;
+    color:var(--blue-light)!important;
     font-weight:400;
 		font-family:var(--fname);
 }
 .conversation.read .pm_labels label{
     box-shadow:none;
-    background:transparent!important
 }
 .conversation.marked::before{
     background-color:var(--theme1)!important
@@ -1208,7 +1207,6 @@ body .cg-notify-message.notification-info{
     color:var(--theme7)!important
 }
 .conversation.active .pm_labels label{
-    background:transparent;
     box-shadow:none
 }
 body #conversation-list-rows .conversation{
